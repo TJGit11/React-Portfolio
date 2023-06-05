@@ -4,7 +4,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <h1 className="text">Hello world!</h1>
+      <p className="text-center text-orange-900 font-serif">Bonjourno!</p>
     </div>
   );
 }
