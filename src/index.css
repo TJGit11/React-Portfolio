@@ -1,0 +1,31 @@
+.red {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px
+}
+
+.homepage {
+    display:grid;
+    grid-template-columns: 200px 200px;
+background: hsla(213, 77%, 14%, 1);
+
+    background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#08203E", endColorstr="#557C93", GradientType=1);
+}
+
+.imagespage {
+    display:grid;
+    grid-template-columns: 200px 200px;
+}
+
+.contactpage {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
