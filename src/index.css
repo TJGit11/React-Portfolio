@@ -5,6 +5,12 @@
     gap: 20px
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .homepage {
     display:grid;
     grid-template-columns: 200px 200px;
