@@ -3,10 +3,18 @@ import { ImLinkedin } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 export default function Footer() {
   return (
-    <h1>
-      {" "}
-      <DiGithubBadge></DiGithubBadge> <ImLinkedin></ImLinkedin>{" "}
-      <MdEmail></MdEmail>
-    </h1>
+    <div className="columns-3">
+      <footer className="">
+        <div>
+          <DiGithubBadge></DiGithubBadge>
+        </div>
+        <div>
+          <ImLinkedin></ImLinkedin>
+        </div>
+        <div>
+          <MdEmail></MdEmail>
+        </div>
+      </footer>
+    </div>
   );
 }

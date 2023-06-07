@@ -1,4 +1,5 @@
 import React from "react";
+import Aos from "aos";
 
 export default function Home() {
   return (
