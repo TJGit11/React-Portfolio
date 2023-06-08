@@ -1,17 +1,13 @@
 import React from "react";
 
+import { Card } from "flowbite-react";
+import { Button } from "flowbite-react";
+import { SeeSourceCodeForSVG } from "flowbite-react";
+
 export default function Projects() {
   return (
     <div>
-      <h1>Projects Page</h1>
-      <p>Big project page</p>
-      <img src="https://placehold.co/600x400"></img>
-      <img src="https://placehold.co/600x400"></img>
-      <img src="https://placehold.co/600x400"></img>
-      <img src="https://placehold.co/600x400"></img>
-      <img src="https://placehold.co/600x400"></img>
-      <img src="https://placehold.co/600x400"></img>
-      <p>Delooloo</p>
+      <Button className="bg-red-500 hover:bg-red-600">Click me</Button>;
     </div>
   );
 }
