@@ -2,14 +2,23 @@ import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs homepage navbar bg-[#ecfdf5]">
-      <li className="nav-item">
+    <ul className="nav nav-tabs bg-[#ecfdf5]">
+      {/* <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
           Home
+        </a>
+      </li> */}
+      <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => handlePageChange("About")}
+          className={currentPage === "About" ? "nav-link active" : "nav-link"}
+        >
+          About
         </a>
       </li>
       <li className="nav-item">
@@ -23,7 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Projects
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
@@ -31,14 +40,14 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           About
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#blog"
           onClick={() => handlePageChange("Blog")}
           className={currentPage === "Blog" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Resume
         </a>
       </li>
       <li className="nav-item">
