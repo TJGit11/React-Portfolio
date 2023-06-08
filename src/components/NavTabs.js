@@ -26,9 +26,23 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           <p>About</p>
         </Navbar.Link>
-        <Navbar.Link href="#projects">Projects</Navbar.Link>
+        <Navbar.Link
+          href="#projects"
+          onClick={() => handlePageChange("Projects")}
+          className={
+            currentPage === "Projects" ? "nav-link active" : "nav-link"
+          }
+        >
+          Projects
+        </Navbar.Link>
         <Navbar.Link href="#resume">Resume</Navbar.Link>
-        <Navbar.Link href="#contact">Contact</Navbar.Link>
+        <Navbar.Link
+          href="#contact"
+          onClick={() => handlePageChange("Contact")}
+          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+        >
+          Contact
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
 
