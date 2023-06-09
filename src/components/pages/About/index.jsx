@@ -13,6 +13,14 @@ export default function About() {
             <div class="flex flex-col px-20">
               <h3>Hello, I'm Thomas Johnson</h3>
               <p>Full-Stack Web Developer</p>
+              <p>
+                As a lifelong fan of puzzles, I'm having a lot of fun (and
+                frustration)
+                <br /> growing and surpassing the constant challenges in web
+                development.
+                <br /> When I'm not behind the computer I enjoy cooking &
+                baking, travel, playing pool, skateboarding, and live music.
+              </p>
             </div>
             <img
               src={profilePic}
