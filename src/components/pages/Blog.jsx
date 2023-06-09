@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio from "./portfolio.module.css";
+
 export default function Blog() {
   return (
     <div>

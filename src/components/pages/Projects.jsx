@@ -37,7 +37,7 @@ export default function Projects() {
       </Card>
       <Card
         imgAlt="Meaningful alt text for an image that is not purely decorative"
-        imgSrc="../IMG_E0070.JPG"
+        imgSrc=""
       >
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           <p>Noteworthy technology acquisitions 2021</p>
