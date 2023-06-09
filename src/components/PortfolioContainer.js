@@ -12,7 +12,7 @@ export default function PortfolioContainer() {
 
   const renderPage = () => {
     if (currentPage === "Home") {
-      return <Home />;
+      return <About />;
     }
     if (currentPage === "About") {
       return <About />;
@@ -32,7 +32,7 @@ export default function PortfolioContainer() {
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

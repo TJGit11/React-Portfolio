@@ -3,7 +3,7 @@ import { ImLinkedin } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 export default function Footer() {
   return (
-    <div className="columns-3">
+    <div className="columns-3 length:200px">
       <footer className="">
         <div>
           <DiGithubBadge></DiGithubBadge>
