@@ -12,7 +12,7 @@ export default function Projects() {
         imgSrc="../IMG_E0070.JPG"
       >
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          <p>Noteworthy technology acquisitions 2021</p>
+          <p>Noteworthy technology acquiszitions 2021</p>
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
           <p>
@@ -37,7 +37,7 @@ export default function Projects() {
       </Card>
       <Card
         imgAlt="Meaningful alt text for an image that is not purely decorative"
-        imgSrc=""
+        imgSrc="../IMG_E0070.JPG"
       >
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           <p>Noteworthy technology acquisitions 2021</p>
