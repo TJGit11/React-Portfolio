@@ -10,9 +10,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           className="mr-3 h-6 sm:h-9"
           src="/favicon.svg"
         /> */}
-        <span className="self-center whitespace-nowrap text-xl font-semibold text-black">
+        {/* <span className="self-center whitespace-nowrap text-xl font-semibold text-black">
           Thomas Johnson
-        </span>
+        </span> */}
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
