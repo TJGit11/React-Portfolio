@@ -10,12 +10,12 @@ export default function About() {
         <Card>
           <div className="flex items-center justify-between">
             {/* <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> */}
+            <img
+              src={profilePic}
+              alt="Profile picture of Thomas Johnson"
+              className="w-80 shadow-lg mx-auto content-end rounded-lg overflow-hidden"
+            />
             <div class="flex flex-col px-20">
-              <img
-                src={profilePic}
-                alt="Profile picture of Thomas Johnson"
-                className="w-80 shadow-lg mx-auto content-end rounded-lg overflow-hidden"
-              />
               <h3>Hello, I'm Thomas Johnson</h3>
               <p>Full-Stack Web Developer</p>
               <p>

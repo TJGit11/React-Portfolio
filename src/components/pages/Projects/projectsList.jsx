@@ -8,7 +8,7 @@ import ssRMGenerator from "../../../images/ssRMGenerator.png";
 const projects = [
   {
     id: 1,
-    name: "Employee Tracker",
+    name: "Untitled",
     image: "",
     description:
       "CLI application to make modifications to an employee database",
@@ -18,7 +18,7 @@ const projects = [
 
   {
     id: 2,
-    name: "Project 2",
+    name: "Pete's, Uh Place",
     imageURL: "",
     description:
       "CLI application to make modifications to an employee database",
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     id: 4,
-    name: "Employee Tracker",
+    name: "README Generator",
     image: ssRMGenerator,
     description:
       "CLI application to make modifications to an employee database",
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     id: 5,
-    name: "Employee Tracker",
+    name: "NoteTaker App",
     image: ssNoteTaker,
     description:
       "CLI application to make modifications to an employee database",
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     id: 6,
-    name: "Employee Tracker",
+    name: "Just Another Text Editor",
     image: ssJATE,
     description:
       "CLI application to make modifications to an employee database",

@@ -4,12 +4,16 @@ import { Button } from "flowbite-react";
 import projects from "./projectsList";
 import { IoLogoGithub } from "react-icons/io";
 import { MdRocketLaunch } from "react-icons/md";
+import Footer from "../../Footer";
 
 export default function Projects() {
   return (
-    <div className="grid grid-cols-2 gap-5 items-center px-20">
+    <div className="grid grid-cols-2 bg-slate-100/80 shadow-lg gap-5 items-center px-20">
       {projects.map((project) => (
-        <div className="border rounded-lg gap-2 px-5" key={project.id}>
+        <div
+          className="border shadow-lg rounded-lg gap-2 px-5"
+          key={project.id}
+        >
           <h3>{project.name}</h3>
           <img src={project.image} className="max-h-52 max-w-lg" />
           <p>{project.description}</p>
@@ -29,6 +33,7 @@ export default function Projects() {
           </div>
         </div>
       ))}
+      <Footer></Footer>
     </div>
   );
 }

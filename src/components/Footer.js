@@ -5,15 +5,9 @@ export default function Footer() {
   return (
     <div className="columns-3 ">
       <footer className="">
-        <div>
-          <DiGithubBadge></DiGithubBadge>
-        </div>
-        <div>
-          <ImLinkedin></ImLinkedin>
-        </div>
-        <div>
-          <MdEmail></MdEmail>
-        </div>
+        <div>{/* <DiGithubBadge></DiGithubBadge> */}</div>
+        <div>{/* <ImLinkedin></ImLinkedin> */}</div>
+        <div>{/* <MdEmail></MdEmail> */}</div>
       </footer>
     </div>
   );
