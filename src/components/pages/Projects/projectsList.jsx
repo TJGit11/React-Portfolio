@@ -1,12 +1,15 @@
 import React from "react";
 import ssEmployee from "../../../images/ssEmployee.png";
+import ssJATE from "../../../images/ssJATE.png";
+import ssNoteTaker from "../../../images/ssNoteTaker.png";
+import ssRMGenerator from "../../../images/ssRMGenerator.png";
 
 // const projectsComponent = () => {
 const projects = [
   {
     id: 1,
     name: "Employee Tracker",
-    image: "../../../images/ssEmployee.png",
+    image: "",
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
@@ -16,7 +19,7 @@ const projects = [
   {
     id: 2,
     name: "Project 2",
-    imageURL: "../../../images/ssEmployee.png",
+    imageURL: "",
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
@@ -26,7 +29,7 @@ const projects = [
   {
     id: 3,
     name: "Employee Tracker",
-    imageURL: "../../../images/ssEmployee.png",
+    image: ssEmployee,
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
@@ -35,7 +38,7 @@ const projects = [
   {
     id: 4,
     name: "Employee Tracker",
-    imageURL: "../../../images/ssEmployee.png",
+    image: ssJATE,
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
@@ -44,7 +47,7 @@ const projects = [
   {
     id: 5,
     name: "Employee Tracker",
-    imageURL: "../../../images/ssEmployee.png",
+    image: ssNoteTaker,
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
@@ -53,7 +56,7 @@ const projects = [
   {
     id: 6,
     name: "Employee Tracker",
-    imageURL: "../../../images/ssEmployee.png",
+    image: ssRMGenerator,
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",

@@ -1,28 +1,29 @@
 import React from "react";
 import { Card } from "flowbite-react";
 import { Button } from "flowbite-react";
-import { SeeSourceCodeForSVG } from "flowbite-react";
 import projects from "./projectsList";
 import { IoLogoGithub } from "react-icons/io";
 import { MdRocketLaunch } from "react-icons/md";
 
 export default function Projects() {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-2 border">
       {projects.map((project) => (
-        <div key={project.id}>
+        <div className="border" key={project.id}>
           <h3>{project.name}</h3>
           <img src={project.image} />
           <p>{project.description}</p>
           <div className="grid grid-cols-2">
             <a href={project.githubLink}>
-              <Button>
-                <IoLogoGithub size="30px">Github</IoLogoGithub>
+              <Button className="shadow">
+                <IoLogoGithub color="black" size="20px">
+                  Github
+                </IoLogoGithub>
               </Button>
             </a>
             <a href={project.deployedLink}>
               <Button>
-                <MdRocketLaunch size="30px"></MdRocketLaunch>
+                <MdRocketLaunch size="20px"></MdRocketLaunch>
               </Button>
             </a>
           </div>
