@@ -1,12 +1,12 @@
 import React from "react";
-import { ssEmployee, ssJATE, ssNoteTaker, ssRMGenrator } from "../../../images";
+import ssEmployee from "../../../images/ssEmployee.png";
 
 // const projectsComponent = () => {
 const projects = [
   {
     id: 1,
     name: "Employee Tracker",
-    image: { ssEmployee },
+    image: "../../../images/ssEmployee.png",
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
@@ -15,7 +15,7 @@ const projects = [
 
   {
     id: 2,
-    name: "Employee Tracker",
+    name: "Project 2",
     imageURL: "../../../images/ssEmployee.png",
     description:
       "CLI application to make modifications to an employee database",
