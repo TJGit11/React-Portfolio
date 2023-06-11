@@ -7,11 +7,11 @@ import { MdRocketLaunch } from "react-icons/md";
 
 export default function Projects() {
   return (
-    <div className="grid grid-cols-2 border">
+    <div className="grid grid-cols-2 gap-5 items-center px-20">
       {projects.map((project) => (
-        <div className="border" key={project.id}>
+        <div className="border rounded-lg gap-2 px-5" key={project.id}>
           <h3>{project.name}</h3>
-          <img src={project.image} />
+          <img src={project.image} className="max-h-52 max-w-lg" />
           <p>{project.description}</p>
           <div className="grid grid-cols-2">
             <a href={project.githubLink}>

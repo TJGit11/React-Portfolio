@@ -38,7 +38,7 @@ const projects = [
   {
     id: 4,
     name: "Employee Tracker",
-    image: ssJATE,
+    image: ssRMGenerator,
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
@@ -56,7 +56,7 @@ const projects = [
   {
     id: 6,
     name: "Employee Tracker",
-    image: ssRMGenerator,
+    image: ssJATE,
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
