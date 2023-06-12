@@ -15,25 +15,25 @@ export default function Projects() {
           key={project.id}
         >
           <h3>{project.name}</h3>
-          <img src={project.image} className="max-h-52 max-w-lg" />
+          <img src={project.image} className="max-h-52 max-w-lg rounded-lg" />
           <p>{project.description}</p>
           <div className="grid grid-cols-2">
             <a href={project.githubLink}>
-              <Button className="shadow">
-                <IoLogoGithub color="black" size="20px">
-                  Github
-                </IoLogoGithub>
+              <Button className="shadow-md flex items-center bg-black">
+                <IoLogoGithub className="bg-black" size="20px"></IoLogoGithub>
               </Button>
+              <p>Github</p>
             </a>
             <a href={project.deployedLink}>
               <Button>
                 <MdRocketLaunch size="20px"></MdRocketLaunch>
               </Button>
+              <p>Deployed</p>
             </a>
           </div>
         </div>
       ))}
-      <Footer></Footer>
+      {/* <Footer /> */}
     </div>
   );
 }

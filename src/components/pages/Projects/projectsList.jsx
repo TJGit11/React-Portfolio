@@ -59,8 +59,8 @@ const projects = [
     image: ssJATE,
     description:
       "CLI application to make modifications to an employee database",
-    deployedLink: "",
-    githubLink: "https://github.com/TJGit11/wumbo-employee-tracker",
+    deployedLink: "https://shrouded-escarpment-51121.herokuapp.com/",
+    githubLink: "https://github.com/TJGit11/PWA-text-editor",
   },
 ];
 // };

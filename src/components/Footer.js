@@ -4,10 +4,16 @@ import { MdEmail } from "react-icons/md";
 export default function Footer() {
   return (
     <div className="columns-3 ">
-      <footer className="">
-        <div>{/* <DiGithubBadge></DiGithubBadge> */}</div>
-        <div>{/* <ImLinkedin></ImLinkedin> */}</div>
-        <div>{/* <MdEmail></MdEmail> */}</div>
+      <footer className="grid grid-col-3 py-10 px-10">
+        {/* <div>
+          <DiGithubBadge size="35px"></DiGithubBadge>
+        </div>
+        <div>
+          <ImLinkedin size="30px"></ImLinkedin>
+        </div>
+        <div>
+          <MdEmail size="35px"></MdEmail>
+        </div> */}
       </footer>
     </div>
   );
