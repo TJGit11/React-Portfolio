@@ -8,7 +8,7 @@ import Footer from "../../Footer";
 
 export default function Projects() {
   return (
-    <div className="grid grid-cols-2 bg-slate-100/80 shadow-lg gap-5 items-center px-20">
+    <div className="flex flex-wrap justify-center bg-gray-500/40  shadow-lg gap-5 items-center px-20">
       {projects.map((project) => (
         <div
           className="border shadow-lg rounded-lg gap-2 px-5"
@@ -17,16 +17,16 @@ export default function Projects() {
           <h3>{project.name}</h3>
           <img src={project.image} className="max-h-52 max-w-lg rounded-lg" />
           <p>{project.description}</p>
-          <div className="grid grid-cols-2">
+          <div className="flex justify-around">
             <a href={project.githubLink}>
-              <Button className="shadow-md flex items-center bg-black">
-                <IoLogoGithub className="bg-black" size="20px"></IoLogoGithub>
+              <Button className="shadow-lg bg-green-500/50 shadow-yellow-500/70">
+                <IoLogoGithub color="black" size="20px"></IoLogoGithub>
               </Button>
               <p>Github</p>
             </a>
             <a href={project.deployedLink}>
               <Button>
-                <MdRocketLaunch size="20px"></MdRocketLaunch>
+                <MdRocketLaunch color="black" size="20px"></MdRocketLaunch>
               </Button>
               <p>Deployed</p>
             </a>

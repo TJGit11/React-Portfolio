@@ -1,23 +1,26 @@
 import React from "react";
 import Aos from "aos";
+// import image from "../../../images/profilePic.jpg/";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <img src="../../../images/IMG_0693.jpg"></img>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div
+      className="flex justify-center min-h-screen"
+      // style="background-image: url(/images/stock/photo-1507358522600-9f71e620c44e.jpg);"
+    >
+      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-content text-center text-neutral-content">
+        <div className="max-w-md">
+          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+          <p className="mb-5">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+            a id nisi.
+          </p>
+          <button className="btn btn-primary">Projects</button>
+          <button className="btn btn-primary">Resume</button>
+        </div>
+      </div>
     </div>
   );
 }

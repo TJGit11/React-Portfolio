@@ -2,14 +2,14 @@ import React from "react";
 import ssEmployee from "../../../images/ssEmployee.png";
 import ssJATE from "../../../images/ssJATE.png";
 import ssNoteTaker from "../../../images/ssNoteTaker.png";
-import ssRMGenerator from "../../../images/ssRMGenerator.png";
+import ssRMGenerator from "../../../images/ssRMGenerator3.png";
 
 // const projectsComponent = () => {
 const projects = [
   {
     id: 1,
     name: "Untitled",
-    image: "",
+    image: ssEmployee,
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
@@ -19,7 +19,7 @@ const projects = [
   {
     id: 2,
     name: "Pete's, Uh Place",
-    imageURL: "",
+    image: ssJATE,
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",

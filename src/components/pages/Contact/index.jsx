@@ -3,18 +3,68 @@ import { Card } from "flowbite-react";
 
 export default function Contact() {
   return (
-    <div>
-      <Card href="#">
-        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          <p>Noteworthy technology acquisitions 2021</p>
-        </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
-          <p>
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-          </p>
-        </p>
-      </Card>
+    <div className="flex flex-wrap justify-center">
+      <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 border border-primary">
+        <div className="card-body">
+          <h1 className="text-1xl mb-4">
+            Please submit this form below to leave us a message!
+          </h1>
+          <form onSubmit>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Full Name</span>
+              </label>
+              <input
+                type="text"
+                placeholder=""
+                className="input input-bordered"
+                value
+                onChange={(event) => event.target.value}
+              />
+            </div>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Email</span>
+              </label>
+              <input
+                type="text"
+                placeholder=""
+                className="input input-bordered"
+                value
+                onChange={(event) => event.target.value}
+              />
+            </div>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Phone Number</span>
+              </label>
+              <input
+                type="text"
+                placeholder=""
+                className="input input-bordered"
+                value
+                onChange={(event) => event.target.value}
+              />
+            </div>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Message</span>
+              </label>
+              <textarea
+                placeholder=""
+                className="textarea textarea-bordered"
+                value
+                onChange={(event) => event.target.value}
+              ></textarea>
+            </div>
+            <div className="form-control mt-6">
+              <button type="submit" className="btn btn-primary">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }
