@@ -13,7 +13,7 @@ export default function PortfolioContainer() {
 
   const renderPage = () => {
     if (currentPage === "Home") {
-      return <Resume />;
+      return <Home />;
     }
     if (currentPage === "About") {
       return <About />;

@@ -17,14 +17,14 @@ function NavTabs({ currentPage, handlePageChange }) {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Navbar.Link active href="#">
-          <p>Home</p>
+          Home
         </Navbar.Link>
         <Navbar.Link
           href="#about"
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          <p>About</p>
+          About
         </Navbar.Link>
         <Navbar.Link
           href="#projects"
@@ -37,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </Navbar.Link>
         <Navbar.Link
           href="#resume"
-          onClick={() => handlePageChange("Projects")}
+          onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
           Resume
