@@ -16,7 +16,11 @@ function NavTabs({ currentPage, handlePageChange }) {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link active href="#">
+        <Navbar.Link
+          href="#home"
+          onClick={() => handlePageChange("Home")}
+          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+        >
           Home
         </Navbar.Link>
         <Navbar.Link
