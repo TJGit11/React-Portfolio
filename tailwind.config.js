@@ -6,6 +6,11 @@ module.exports = {
   ],
   // darkMode: "media",
   theme: {
+    colors: {
+      primary: "#303633",
+      secondary: "#7ea2aa",
+      accent: "#8be8cb",
+    },
     extend: {},
   },
   plugins: [require("flowbite/plugin")],

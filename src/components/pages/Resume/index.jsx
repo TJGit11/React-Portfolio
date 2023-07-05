@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
   const resumeUrl =
-    "https://docs.google.com/document/d/1Rt9jybR8QDlO13gPpARZHHjeICpMOe892L_k8xWpXz8/edit?usp=sharing";
+    "https://docs.google.com/document/d/1Rt9jybR8QDlO13gPpARZHHjeICpMOe892L_k8xWpXz8/export?format=pdf";
   return (
     <div className="flex items-center justify-center p-20 border border-black">
       <h1>Check out my resume:</h1>
