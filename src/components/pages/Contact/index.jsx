@@ -7,7 +7,11 @@ export default function Contact() {
     <div className="flex flex-wrap items-center justify-center p-20">
       <div className="border border-black p-20 m-5">
         <span className="flex justify-center">LinkedIn</span>
-        <a href="#" mailto alt="A link to Thomas Johnson's LinkedIn page">
+        <a
+          href="https://www.linkedin.com/in/thomas-johnson-678383276/"
+          alt="A link to Thomas Johnson's LinkedIn page"
+          target="_blank"
+        >
           <BsLinkedin size="4em"></BsLinkedin>
         </a>
       </div>
@@ -26,6 +30,7 @@ export default function Contact() {
         <a
           href="mailto: thomasjjohnson9311@gmail.com"
           alt="A link to send Thomas Johnson an email"
+          target="_blank"
         >
           <MdMail size="4em"></MdMail>
         </a>
