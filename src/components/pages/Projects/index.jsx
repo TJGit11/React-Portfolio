@@ -8,24 +8,28 @@ import Footer from "../../Footer";
 
 export default function Projects() {
   return (
-    <div className="flex flex-wrap justify-center  shadow-lg gap-5 items-center px-20">
+    <div className="flex flex-wrap justify-center shadow-lg gap-5 items-center px-20">
       {projects.map((project) => (
         <div
           className="border shadow-lg rounded-lg gap-2 px-5"
           key={project.id}
         >
           <h3 className="flex justify-center">{project.name}</h3>
-          <img
-            src={project.image}
-            className="flex justify-center max-h-52 max-w-lg rounded-lg"
-          />
-          <p>{project.description}</p>
+          <div className="flex justify-center">
+            <img
+              src={project.image}
+              className="flex justify-center max-h-52 max-w-lg rounded-lg"
+            />
+          </div>
+
+          <p className="flex flex-wrap justify-center">{project.description}</p>
+
           <div className="flex justify-around">
             <a href={project.githubLink}>
               <Button className="shadow-lg bg-green-500/50 shadow-yellow-500/70">
                 <IoLogoGithub color="black" size="20px"></IoLogoGithub>
               </Button>
-              <p>Github</p>
+              <p className="flex justify-center ">Github</p>
             </a>
             <a href={project.deployedLink}>
               <Button>
