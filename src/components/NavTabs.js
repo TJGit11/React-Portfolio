@@ -19,7 +19,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          About
+          About Me
         </Navbar.Link>
         <Navbar.Link
           href="#projects"
@@ -30,19 +30,19 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Projects
         </Navbar.Link>
-        <Navbar.Link
+        {/* <Navbar.Link
           href="#resume"
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
           Resume
-        </Navbar.Link>
+        </Navbar.Link> */}
         <Navbar.Link
           href="#contact"
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
-          Contact
+          Resume & Contact
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
