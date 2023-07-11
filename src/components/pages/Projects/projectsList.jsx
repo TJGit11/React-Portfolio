@@ -14,7 +14,7 @@ const projects = [
     image: ssFadeBrigade,
     description:
       "Application allows customers to schedule appointments with barbers",
-    deployedLink: "",
+    deployedLink: "https://fade-brigade.herokuapp.com/",
     githubLink: "https://github.com/TJGit11/wumbo-employee-tracker",
   },
 
@@ -24,7 +24,7 @@ const projects = [
     image: ssPasswordGenerator,
     description:
       "Application takes input from user to generate a random password",
-    deployedLink: "",
+    deployedLink: "https://tjgit11.github.io/password-generator/",
     githubLink: "https://github.com/TJGit11/wumbo-employee-tracker",
   },
 
