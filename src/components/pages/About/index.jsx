@@ -21,6 +21,10 @@ export default function About() {
             <p>
               I'm having a lot of fun learning, growing through, and surpassing
               the constant challenges in web development.
+              <br /> When I'm not at the computer I like to cook & bake, travel,
+              skateboard, and check out live music.
+              <br /> I hope to one day be able to work on projects that add
+              value in these areas and more!
               <br />
             </p>
           </div>

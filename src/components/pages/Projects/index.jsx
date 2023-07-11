@@ -8,7 +8,7 @@ import Footer from "../../Footer";
 
 export default function Projects() {
   return (
-    <div className="flex flex-wrap justify-center shadow-lg gap-5 items-center px-20">
+    <div className="grid-cols-1 shadow-lg gap-5 items-center px-20">
       {projects.map((project) => (
         <div
           className="border shadow-lg rounded-lg gap-2 px-5"
