@@ -18,7 +18,7 @@ export default function Projects() {
           <div className="flex justify-center">
             <img
               src={project.image}
-              className="flex justify-center max-h-52 max-w-lg rounded-lg"
+              className="flex justify-center lg:max-w-lg md:max-w-md rounded-lg "
             />
           </div>
 
@@ -26,7 +26,7 @@ export default function Projects() {
 
           <div className="flex justify-around">
             <a href={project.githubLink}>
-              <Button className="shadow-lg bg-green-500/50 shadow-yellow-500/70">
+              <Button className="shadow-lg bg-navy-500/50 shadow-yellow-500/70">
                 <IoLogoGithub color="black" size="20px"></IoLogoGithub>
               </Button>
               <p className="flex justify-center ">Github</p>
@@ -35,7 +35,7 @@ export default function Projects() {
               <Button>
                 <MdRocketLaunch color="black" size="20px"></MdRocketLaunch>
               </Button>
-              <p>Deployed</p>
+              <p className="flex justify-center items-center">Demo</p>
             </a>
           </div>
         </div>
