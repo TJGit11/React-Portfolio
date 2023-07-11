@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e9c491ac.css",
-    "main.js": "/react-portfolio/static/js/main.d3ec0df8.js",
+    "main.css": "/react-portfolio/static/css/main.9bdbb7bf.css",
+    "main.js": "/react-portfolio/static/js/main.4576e797.js",
     "static/media/profilePic.jpg": "/react-portfolio/static/media/profilePic.9c792a3528d4c7538e1d.jpg",
-    "static/media/ssRMGenerator3.png": "/react-portfolio/static/media/ssRMGenerator3.097081fa54387b3489b4.png",
-    "static/media/ssEmployee.png": "/react-portfolio/static/media/ssEmployee.5dabed4b4c18df1d789b.png",
+    "static/media/fadebrigade.png": "/react-portfolio/static/media/fadebrigade.79f6ca8fea5d8d8f1e04.png",
+    "static/media/ssEmployee.png": "/react-portfolio/static/media/ssEmployee.73f02b4ecd34d98fc8c5.png",
+    "static/media/ssRMGenerator.png": "/react-portfolio/static/media/ssRMGenerator.4f32c912588417600a50.png",
+    "static/media/ssPasswordGenerator.png": "/react-portfolio/static/media/ssPasswordGenerator.1d2c2010a3f53c108b09.png",
     "static/media/ssNoteTaker.png": "/react-portfolio/static/media/ssNoteTaker.c1dd903ffbb9c1aa4ddb.png",
     "static/media/ssJATE.png": "/react-portfolio/static/media/ssJATE.ac11019379d49da02c06.png",
     "index.html": "/react-portfolio/index.html",
-    "main.e9c491ac.css.map": "/react-portfolio/static/css/main.e9c491ac.css.map",
-    "main.d3ec0df8.js.map": "/react-portfolio/static/js/main.d3ec0df8.js.map"
+    "main.9bdbb7bf.css.map": "/react-portfolio/static/css/main.9bdbb7bf.css.map",
+    "main.4576e797.js.map": "/react-portfolio/static/js/main.4576e797.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9c491ac.css",
-    "static/js/main.d3ec0df8.js"
+    "static/css/main.9bdbb7bf.css",
+    "static/js/main.4576e797.js"
   ]
 }
