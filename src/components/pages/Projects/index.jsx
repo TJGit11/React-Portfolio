@@ -25,13 +25,19 @@ export default function Projects() {
           <p className="flex flex-wrap justify-center">{project.description}</p>
 
           <div className="flex justify-around">
-            <a href={project.githubLink}>
+            <a
+              href={project.githubLink}
+              alt="This is a link to this project's github repository"
+            >
               <Button className="shadow-lg bg-navy-500/50 shadow-yellow-500/70">
                 <IoLogoGithub color="black" size="20px"></IoLogoGithub>
               </Button>
               <p className="flex justify-center ">Github</p>
             </a>
-            <a href={project.deployedLink}>
+            <a
+              href={project.deployedLink}
+              alt="This is a link to the demo of this project"
+            >
               <Button>
                 <MdRocketLaunch color="black" size="20px"></MdRocketLaunch>
               </Button>

@@ -15,7 +15,7 @@ const projects = [
     description:
       "Application allows customers to schedule appointments with barbers",
     deployedLink: "https://fade-brigade.herokuapp.com/",
-    githubLink: "https://github.com/TJGit11/wumbo-employee-tracker",
+    githubLink: "https://github.com/TJGit11/project-03",
   },
 
   {
@@ -25,7 +25,7 @@ const projects = [
     description:
       "Application takes input from user to generate a random password",
     deployedLink: "https://tjgit11.github.io/password-generator/",
-    githubLink: "https://github.com/TJGit11/wumbo-employee-tracker",
+    githubLink: "https://github.com/TJGit11/password-generator",
   },
 
   {
@@ -44,7 +44,7 @@ const projects = [
     description:
       "CLI application which takes input from the user to create a README file",
     deployedLink: "",
-    githubLink: "https://github.com/TJGit11/wumbo-employee-tracker",
+    githubLink: "https://github.com/TJGit11/potential-readme-generator",
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const projects = [
     description:
       "Application that allows the user to create, read, update, and delete notes",
     deployedLink: "",
-    githubLink: "https://github.com/TJGit11/wumbo-employee-tracker",
+    githubLink: "https://github.com/TJGit11/express-note-taker-carnival",
   },
   {
     id: 6,
