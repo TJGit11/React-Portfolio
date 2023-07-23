@@ -14,6 +14,8 @@ const projects = [
     image: ssFadeBrigade,
     description:
       "Application allows customers to schedule appointments with barbers",
+    technologies:
+      "React, JavaScript, Tailwind, DaisyUI, GraphQL, MongoDB, Express, Node, Heroku",
     deployedLink: "https://fade-brigade.herokuapp.com/",
     githubLink: "https://github.com/TJGit11/Fade-Brigade",
   },
@@ -24,6 +26,7 @@ const projects = [
     image: ssPasswordGenerator,
     description:
       "Application takes input from user to generate a random password",
+    technologies: "HTML, CSS, JavaScript",
     deployedLink: "https://tjgit11.github.io/password-generator/",
     githubLink: "https://github.com/TJGit11/password-generator",
   },
@@ -34,6 +37,7 @@ const projects = [
     image: ssEmployee,
     description:
       "CLI application to make modifications to an employee database",
+    technologies: "JavaScript, mySQL, Sequelize",
     deployedLink: "",
     githubLink: "https://github.com/TJGit11/cli-employee-tracker",
   },
@@ -43,6 +47,7 @@ const projects = [
     image: ssRMGenerator,
     description:
       "CLI application which takes input from the user to create a README file",
+    technologies: "JavaScript",
     deployedLink: "",
     githubLink: "https://github.com/TJGit11/potential-readme-generator",
   },
@@ -52,6 +57,7 @@ const projects = [
     image: ssNoteTaker,
     description:
       "Application that allows the user to create, read, update, and delete notes",
+    technologies: "HTML, CSS, JavaScript, Express",
     deployedLink: "",
     githubLink: "https://github.com/TJGit11/express-note-taker",
   },
@@ -60,6 +66,7 @@ const projects = [
     name: "Just Another Text Editor",
     image: ssJATE,
     description: "A downloadable PWA text editor",
+    technologies: "HTML, CSS, JavaScript, Heroku ",
     deployedLink: "https://shrouded-escarpment-51121.herokuapp.com/",
     githubLink: "https://github.com/TJGit11/PWA-text-editor",
   },
