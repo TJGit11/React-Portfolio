@@ -15,7 +15,7 @@ const projects = [
     description:
       "Application allows customers to schedule appointments with barbers",
     deployedLink: "https://fade-brigade.herokuapp.com/",
-    githubLink: "https://github.com/TJGit11/project-03",
+    githubLink: "https://github.com/TJGit11/Fade-Brigade",
   },
 
   {
@@ -35,7 +35,7 @@ const projects = [
     description:
       "CLI application to make modifications to an employee database",
     deployedLink: "",
-    githubLink: "https://github.com/TJGit11/wumbo-employee-tracker",
+    githubLink: "https://github.com/TJGit11/cli-employee-tracker",
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const projects = [
     description:
       "Application that allows the user to create, read, update, and delete notes",
     deployedLink: "",
-    githubLink: "https://github.com/TJGit11/express-note-taker-carnival",
+    githubLink: "https://github.com/TJGit11/express-note-taker",
   },
   {
     id: 6,
