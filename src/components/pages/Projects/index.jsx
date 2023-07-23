@@ -8,7 +8,7 @@ import Footer from "../../Footer";
 
 export default function Projects() {
   return (
-    <div className="grid-cols-1 shadow-lg gap-5 items-center px-20">
+    <div className="grid-cols-1 shadow-lg gap-5 items-center px-20 bg-gray-200">
       {projects.map((project) => (
         <div
           className="border shadow-lg rounded-lg gap-2 px-5"
@@ -38,7 +38,7 @@ export default function Projects() {
               href={project.deployedLink}
               alt="This is a link to the demo of this project"
             >
-              <Button>
+              <Button className="shadow-lg bg-navy-500/50 shadow-yellow-500/70">
                 <MdRocketLaunch color="black" size="20px"></MdRocketLaunch>
               </Button>
               <p className="flex justify-center items-center">Demo</p>
