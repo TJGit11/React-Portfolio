@@ -5,7 +5,7 @@ import { MdMail } from "react-icons/md";
 import { FaRegNewspaper } from "react-icons/fa";
 export default function Contact() {
   return (
-    <div className="flex flex-wrap items-center justify-center p-20">
+    <div className="flex flex-wrap items-center justify-center p-20 bg-gray-200">
       <div className="border border-black p-20 m-5 rounded-lg">
         <a
           href="https://docs.google.com/document/d/1Rt9jybR8QDlO13gPpARZHHjeICpMOe892L_k8xWpXz8/export?format=pdf"

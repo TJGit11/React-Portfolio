@@ -5,7 +5,7 @@ import profilePic from "../../../images/profilePic.jpg";
 export default function About() {
   return (
     <div>
-      <div className="flex items-center justify-center min-h-screen">
+      <div className="flex items-center justify-center min-h-screen bg-gray-200">
         {/* <h1>About Page</h1> */}
         {/* <Card> */}
         <div className="flex items-center justify-between border rounded-lg">
