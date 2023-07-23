@@ -23,6 +23,9 @@ export default function Projects() {
           </div>
 
           <p className="flex flex-wrap justify-center">{project.description}</p>
+          <p className="flex flex-wrap justify-center">
+            Technologies: {project.technologies}
+          </p>
 
           <div className="flex justify-around">
             <a
