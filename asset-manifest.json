@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.456dd177.css",
-    "main.js": "/react-portfolio/static/js/main.eb0dc87e.js",
-    "static/media/profilePic.jpg": "/react-portfolio/static/media/profilePic.9c792a3528d4c7538e1d.jpg",
-    "static/media/fadebrigade.png": "/react-portfolio/static/media/fadebrigade.fdb999414dbd1459b852.png",
-    "static/media/ssEmployee.png": "/react-portfolio/static/media/ssEmployee.73f02b4ecd34d98fc8c5.png",
-    "static/media/ssRMGenerator.png": "/react-portfolio/static/media/ssRMGenerator.4f32c912588417600a50.png",
-    "static/media/ssPasswordGenerator.png": "/react-portfolio/static/media/ssPasswordGenerator.1d2c2010a3f53c108b09.png",
-    "static/media/ssNoteTaker.png": "/react-portfolio/static/media/ssNoteTaker.c1dd903ffbb9c1aa4ddb.png",
-    "static/media/ssJATE.png": "/react-portfolio/static/media/ssJATE.ac11019379d49da02c06.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.456dd177.css.map": "/react-portfolio/static/css/main.456dd177.css.map",
-    "main.eb0dc87e.js.map": "/react-portfolio/static/js/main.eb0dc87e.js.map"
+    "main.css": "/my-portfolio-react-version/static/css/main.456dd177.css",
+    "main.js": "/my-portfolio-react-version/static/js/main.8811ad2a.js",
+    "static/media/profilePic.jpg": "/my-portfolio-react-version/static/media/profilePic.9c792a3528d4c7538e1d.jpg",
+    "static/media/fadebrigade.png": "/my-portfolio-react-version/static/media/fadebrigade.fdb999414dbd1459b852.png",
+    "static/media/ssEmployee.png": "/my-portfolio-react-version/static/media/ssEmployee.73f02b4ecd34d98fc8c5.png",
+    "static/media/ssRMGenerator.png": "/my-portfolio-react-version/static/media/ssRMGenerator.4f32c912588417600a50.png",
+    "static/media/ssPasswordGenerator.png": "/my-portfolio-react-version/static/media/ssPasswordGenerator.1d2c2010a3f53c108b09.png",
+    "static/media/ssNoteTaker.png": "/my-portfolio-react-version/static/media/ssNoteTaker.c1dd903ffbb9c1aa4ddb.png",
+    "static/media/ssJATE.png": "/my-portfolio-react-version/static/media/ssJATE.ac11019379d49da02c06.png",
+    "index.html": "/my-portfolio-react-version/index.html",
+    "main.456dd177.css.map": "/my-portfolio-react-version/static/css/main.456dd177.css.map",
+    "main.8811ad2a.js.map": "/my-portfolio-react-version/static/js/main.8811ad2a.js.map"
   },
   "entrypoints": [
     "static/css/main.456dd177.css",
-    "static/js/main.eb0dc87e.js"
+    "static/js/main.8811ad2a.js"
   ]
 }
