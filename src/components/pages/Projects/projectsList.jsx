@@ -59,8 +59,8 @@ const projects = [
     description:
       "Application that allows the user to create, read, update, and delete notes",
     technologies: "HTML, CSS, JavaScript, Express",
-    deployedLink: "",
-    githubLink: "https://boiling-thicket-44253-e1207d94879f.herokuapp.com/",
+    deployedLink: "https://boiling-thicket-44253-e1207d94879f.herokuapp.com/",
+    githubLink: "https://github.com/TJGit11/express-note-taker",
   },
   {
     id: 6,
