@@ -49,7 +49,8 @@ const projects = [
     description:
       "CLI application which takes input from the user to create a README file",
     technologies: "JavaScript",
-    deployedLink: "",
+    deployedLink:
+      "https://drive.google.com/file/d/1d3L92BuB-YufpPjDdsX-zM63JDu124ob/view",
     githubLink: "https://github.com/TJGit11/potential-readme-generator",
   },
   {
