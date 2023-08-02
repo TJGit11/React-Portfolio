@@ -38,7 +38,8 @@ const projects = [
     description:
       "CLI application to make modifications to an employee database",
     technologies: "JavaScript, mySQL, Sequelize",
-    deployedLink: "",
+    deployedLink:
+      "https://drive.google.com/file/d/1KZw9hucJmRN3WLR6r0gkxCITTOE65fig/view",
     githubLink: "https://github.com/TJGit11/cli-employee-tracker",
   },
   {
@@ -59,7 +60,7 @@ const projects = [
       "Application that allows the user to create, read, update, and delete notes",
     technologies: "HTML, CSS, JavaScript, Express",
     deployedLink: "",
-    githubLink: "https://github.com/TJGit11/express-note-taker",
+    githubLink: "https://boiling-thicket-44253-e1207d94879f.herokuapp.com/",
   },
   {
     id: 6,
