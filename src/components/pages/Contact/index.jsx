@@ -9,7 +9,9 @@ export default function Contact() {
       <div className="flex flex-wrap items-center justify-center p-20 bg-gray-200">
         <div className="border border-black p-20 m-5 rounded-lg">
           <a
-            href="https://docs.google.com/document/d/1Rt9jybR8QDlO13gPpARZHHjeICpMOe892L_k8xWpXz8/export?format=pdf"
+            // href="https://docs.google.com/document/d/1Rt9jybR8QDlO13gPpARZHHjeICpMOe892L_k8xWpXz8/export?format=pdf"
+
+            href="https://docs.google.com/document/d/1GAbMZLubFtei26jwZtMoDxGtVL8bX2iNgeOJtB9NZ-w/export?format=pdf"
             alt="A link to a downloadable pdf of Thomas Johnson's resume"
             target="_blank"
           >
